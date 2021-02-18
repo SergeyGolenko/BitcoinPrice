@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class BitcoinViewController: UIViewController {
     
     //MARK: Property
     let baseURL = "https://apiv2.bitcoinaverage.com/indices/global/ticker/BTC"
@@ -74,7 +74,7 @@ class ViewController: UIViewController {
 
 
 
-extension ViewController : UIPickerViewDataSource {
+extension BitcoinViewController : UIPickerViewDataSource {
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
     }
@@ -93,7 +93,7 @@ extension ViewController : UIPickerViewDataSource {
     
 }
 
-extension ViewController : UIPickerViewDelegate {
+extension BitcoinViewController : UIPickerViewDelegate {
     
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         finalURL = baseURL + currencyArray[row]

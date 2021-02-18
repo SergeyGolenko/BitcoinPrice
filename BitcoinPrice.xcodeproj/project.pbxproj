@@ -3,13 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		2C5CCE9B25DE6B62002ED0D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5CCE9A25DE6B62002ED0D0 /* AppDelegate.swift */; };
 		2C5CCE9D25DE6B62002ED0D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5CCE9C25DE6B62002ED0D0 /* SceneDelegate.swift */; };
-		2C5CCE9F25DE6B62002ED0D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5CCE9E25DE6B62002ED0D0 /* ViewController.swift */; };
+		2C5CCE9F25DE6B62002ED0D0 /* BitcoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5CCE9E25DE6B62002ED0D0 /* BitcoinViewController.swift */; };
 		2C5CCEA225DE6B62002ED0D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C5CCEA025DE6B62002ED0D0 /* Main.storyboard */; };
 		2C5CCEA425DE6B64002ED0D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C5CCEA325DE6B64002ED0D0 /* Assets.xcassets */; };
 		2C5CCEA725DE6B64002ED0D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C5CCEA525DE6B64002ED0D0 /* LaunchScreen.storyboard */; };
@@ -20,7 +20,7 @@
 		2C5CCE9725DE6B62002ED0D0 /* BitcoinPrice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitcoinPrice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C5CCE9A25DE6B62002ED0D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C5CCE9C25DE6B62002ED0D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2C5CCE9E25DE6B62002ED0D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C5CCE9E25DE6B62002ED0D0 /* BitcoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitcoinViewController.swift; sourceTree = "<group>"; };
 		2C5CCEA125DE6B62002ED0D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C5CCEA325DE6B64002ED0D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C5CCEA625DE6B64002ED0D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -65,7 +65,7 @@
 			children = (
 				2C5CCE9A25DE6B62002ED0D0 /* AppDelegate.swift */,
 				2C5CCE9C25DE6B62002ED0D0 /* SceneDelegate.swift */,
-				2C5CCE9E25DE6B62002ED0D0 /* ViewController.swift */,
+				2C5CCE9E25DE6B62002ED0D0 /* BitcoinViewController.swift */,
 				2C5CCEA025DE6B62002ED0D0 /* Main.storyboard */,
 				2C5CCEA325DE6B64002ED0D0 /* Assets.xcassets */,
 				2C5CCEA525DE6B64002ED0D0 /* LaunchScreen.storyboard */,
@@ -88,7 +88,6 @@
 				97AB714F45A4F2950B03B7BE /* Pods-BitcoinPrice.debug.xcconfig */,
 				F67E49C9C24178295914D8D3 /* Pods-BitcoinPrice.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -206,7 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C5CCE9F25DE6B62002ED0D0 /* ViewController.swift in Sources */,
+				2C5CCE9F25DE6B62002ED0D0 /* BitcoinViewController.swift in Sources */,
 				2C5CCE9B25DE6B62002ED0D0 /* AppDelegate.swift in Sources */,
 				2C5CCE9D25DE6B62002ED0D0 /* SceneDelegate.swift in Sources */,
 			);

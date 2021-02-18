@@ -21,20 +21,32 @@
                                     <constraint firstAttribute="height" constant="128" id="RwL-qY-d0w"/>
                                 </constraints>
                             </imageView>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H0Q-iV-pzo">
+                                <rect key="frame" x="0.0" y="542" width="414" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="JKm-ZH-FUO"/>
+                                </constraints>
+                            </pickerView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.077248580750000004" green="0.5250692964" blue="0.60095512870000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="0.077248580750000004" green="0.5250692964" blue="0.60095512870000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="H0Q-iV-pzo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="AUU-gg-kxc"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="f8y-EL-eNk" secondAttribute="trailing" constant="87" id="JOe-X7-Pcs"/>
                             <constraint firstItem="f8y-EL-eNk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="Jye-eV-hHV"/>
+                            <constraint firstItem="H0Q-iV-pzo" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="NB8-3v-iU3"/>
                             <constraint firstItem="f8y-EL-eNk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="acl-Kv-fvV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="H0Q-iV-pzo" secondAttribute="bottom" constant="20" id="sxi-Vx-g9r"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="pickerCurrency" destination="H0Q-iV-pzo" id="hpg-84-AE1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="10" y="138"/>
+            <point key="canvasLocation" x="8.6956521739130448" y="137.94642857142856"/>
         </scene>
     </scenes>
     <resources>

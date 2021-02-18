@@ -53,11 +53,7 @@ class ViewController: UIViewController {
     //            }
     //
     //    }
-    //
-    //
-    //
-    //
-    //
+    
     //    //MARK: - JSON Parsing
     //    /***************************************************************/
     //
@@ -74,10 +70,6 @@ class ViewController: UIViewController {
     //        updateUIWithWeatherData()
     //    }
     //
-
-
-
-
 }
 
 
@@ -104,7 +96,8 @@ extension ViewController : UIPickerViewDataSource {
 extension ViewController : UIPickerViewDelegate {
     
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        print(currencyArray[row])
+        finalURL = baseURL + currencyArray[row]
+        print(finalURL)
     }
 }
 

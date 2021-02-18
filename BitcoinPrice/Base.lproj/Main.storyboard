@@ -27,21 +27,34 @@
                                     <constraint firstAttribute="height" constant="300" id="JKm-ZH-FUO"/>
                                 </constraints>
                             </pickerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wXM-E2-v5m">
+                                <rect key="frame" x="57" y="243" width="300" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="Hgl-3i-tfM"/>
+                                    <constraint firstAttribute="width" constant="300" id="yPP-L2-9hn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="65"/>
+                                <color key="textColor" red="0.93040776250000001" green="0.65930527449999998" blue="0.2224897146" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.077248580750000004" green="0.5250692964" blue="0.60095512870000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="0.077248580750000004" green="0.5250692964" blue="0.60095512870000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="wXM-E2-v5m" firstAttribute="top" secondItem="f8y-EL-eNk" secondAttribute="bottom" constant="51" id="6gj-al-URW"/>
                             <constraint firstItem="H0Q-iV-pzo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="AUU-gg-kxc"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="f8y-EL-eNk" secondAttribute="trailing" constant="87" id="JOe-X7-Pcs"/>
                             <constraint firstItem="f8y-EL-eNk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="Jye-eV-hHV"/>
                             <constraint firstItem="H0Q-iV-pzo" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="NB8-3v-iU3"/>
+                            <constraint firstItem="wXM-E2-v5m" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="T89-NE-g8F"/>
                             <constraint firstItem="f8y-EL-eNk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="acl-Kv-fvV"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="H0Q-iV-pzo" secondAttribute="bottom" constant="20" id="sxi-Vx-g9r"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="pickerCurrency" destination="H0Q-iV-pzo" id="hpg-84-AE1"/>
+                        <outlet property="priceLabel" destination="wXM-E2-v5m" id="NdW-Pz-5Rs"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

@@ -10,9 +10,12 @@ import UIKit
 class ViewController: UIViewController {
     
     
-    
-    
+    //MARK: - IBOutlets
     @IBOutlet weak var pickerCurrency: UIPickerView!
+    @IBOutlet weak var priceLabel: UILabel!
+    
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()

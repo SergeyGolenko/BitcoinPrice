@@ -26,6 +26,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         //TODO: Place your 3 UIPickerView delegate methods here
+        pickerCurrency.delegate = self
+        pickerCurrency.dataSource = self
     }
     
     

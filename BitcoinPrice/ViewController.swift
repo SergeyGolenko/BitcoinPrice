@@ -84,11 +84,18 @@ class ViewController: UIViewController {
 
 extension ViewController : UIPickerViewDataSource {
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
-        currencyArray.count
+        return 1
     }
     
+    
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-        <#code#>
+        return currencyArray.count
+    }
+    
+  
+    
+    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        return currencyArray[row]
     }
     
     
